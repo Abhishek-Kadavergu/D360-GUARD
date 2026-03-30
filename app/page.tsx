@@ -3,6 +3,7 @@ import { Hero } from "@/components/main/hero";
 import { Projects } from "@/components/main/projects";
 import { Skills } from "@/components/main/skills";
 import { Cta } from "@/components/main/cta";
+import { PoweredBy } from "@/components/main/powered-by";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <Skills />
         <Encryption />
         <Projects />
+        <PoweredBy />
         <Cta />
       </div>
     </main>

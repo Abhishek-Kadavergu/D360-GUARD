@@ -53,14 +53,9 @@ export const SOCIALS = [
     link: "https://instagram.com",
   },
   {
-    name: "Facebook",
-    icon: FaFacebook,
-    link: "https://facebook.com",
-  },
-  {
-    name: "Twitter",
-    icon: RxTwitterLogo,
-    link: "https://x.com/_sanidhyy",
+    name: "LinkedIn",
+    icon: RxLinkedinLogo,
+    link: "https://linkedin.com",
   },
 ] as const;
 
@@ -218,20 +213,23 @@ export const OTHER_SKILL = [
 export const USE_CASES = [
   {
     title: "Secure AI for Enterprises",
-    description: "Enable teams to safely use tools like ChatGPT, Claude, and other AI systems without exposing sensitive data.",
-    image: "/projects/project-1.png",
+    description:
+      "Enable teams to safely use tools like ChatGPT, Claude, and other AI systems without exposing sensitive data.",
+    image: "/projects/image1.jpg",
     link: "https://example.com",
   },
   {
     title: "Document Intelligence",
-    description: "Extract insights, summaries, and structured data from documents \u2014 securely and efficiently.",
-    image: "/projects/project-2.png",
+    description:
+      "Extract insights, summaries, and structured data from documents \u2014 securely and efficiently.",
+    image: "/projects/image2.jpg",
     link: "https://example.com",
   },
   {
     title: "AI Governance Layer",
-    description: "Gain full visibility and control over how AI is used across your organization.",
-    image: "/projects/project-3.png",
+    description:
+      "Gain full visibility and control over how AI is used across your organization.",
+    image: "/projects/image3.jpg",
     link: "https://example.com",
   },
 ] as const;
@@ -239,28 +237,33 @@ export const USE_CASES = [
 export const FEATURE_CARDS = [
   {
     title: "PII Masking & Data Protection",
-    description: "Automatically detects and masks sensitive information before it reaches external AI systems."
+    description:
+      "Automatically detects and masks sensitive information before it reaches external AI systems.",
   },
   {
     title: "Policy-Based Governance",
-    description: "Define and enforce rules for how AI is accessed, used, and shared across teams."
+    description:
+      "Define and enforce rules for how AI is accessed, used, and shared across teams.",
   },
   {
     title: "Secure Access Control",
-    description: "Ensure only authenticated and authorized users interact with AI workflows."
+    description:
+      "Ensure only authenticated and authorized users interact with AI workflows.",
   },
   {
     title: "Document & Image Intelligence",
-    description: "Upload files and extract meaningful insights using AI \u2014 securely."
+    description:
+      "Upload files and extract meaningful insights using AI \u2014 securely.",
   },
   {
     title: "Actionable Outputs",
-    description: "Convert raw data into structured summaries, insights, and checklists."
+    description:
+      "Convert raw data into structured summaries, insights, and checklists.",
   },
   {
     title: "Compliance & Risk Management",
-    description: "Meet regulatory standards while minimizing AI-related risks."
-  }
+    description: "Meet regulatory standards while minimizing AI-related risks.",
+  },
 ] as const;
 
 export const FOOTER_DATA = [

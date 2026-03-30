@@ -5,14 +5,15 @@ export const Cta = () => {
         Adopt AI With Confidence.
       </h2>
       <p className="text-gray-300 text-lg md:text-xl max-w-[700px] mb-10">
-        D360 Guard ensures your organization can innovate with AI &mdash; without compromising security, privacy, or compliance.
+        D360 Guard ensures your organization can innovate with AI &mdash;
+        without compromising security, privacy, or compliance.
       </p>
-      <a
+      {/* <a
         href="#product"
         className="py-3 px-8 button-primary text-center text-white cursor-pointer rounded-lg text-lg font-medium shadow-[0_0_20px_rgba(112,66,248,0.3)] hover:shadow-[0_0_30px_rgba(112,66,248,0.5)] transition-all"
       >
         Request Demo
-      </a>
+      </a> */}
     </section>
   );
 };
