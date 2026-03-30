@@ -46,7 +46,9 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          D360 Guard acts as a secure intelligence layer between your organization and external AI systems &mdash; automatically protecting sensitive data, enforcing policies, and ensuring compliance.
+          D360 Guard acts as a secure intelligence layer between your
+          organization and external AI systems &mdash; automatically protecting
+          sensitive data, enforcing policies, and ensuring compliance.
         </motion.p>
 
         <motion.div
@@ -59,14 +61,14 @@ export const HeroContent = () => {
           >
             Request Demo
           </Link>
-          <a
+          {/* <a
             className="py-2 px-6 text-center text-white cursor-pointer rounded-lg border border-purple-500 hover:bg-purple-500/20 transition-all max-w-[200px]"
             href="#features"
           >
             See How It Works
-          </a>
+          </a> */}
         </motion.div>
-        
+
         <motion.p
           variants={slideInFromLeft(1.2)}
           className="text-sm text-gray-500 mt-4"
