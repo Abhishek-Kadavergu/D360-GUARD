@@ -6,7 +6,7 @@ import { SKILL_DATA, FEATURE_CARDS } from "@/constants";
 export const Skills = () => {
   return (
     <section
-      id="skills"
+      id="features"
       style={{ transform: "scale(0.9)" }}
       className="flex flex-col items-center justify-center gap-3 h-full relative overflow-hidden py-20"
     >

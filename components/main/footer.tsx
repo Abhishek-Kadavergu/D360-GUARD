@@ -36,7 +36,7 @@ export const Footer = () => {
         <div className="flex w-full max-w-sm flex-col items-center text-center md:max-w-none">
           <h3 className="text-[15px] font-semibold text-white">Platform</h3>
           <div className="mt-3 flex flex-col items-center gap-3 text-[14px] text-gray-300">
-            <Link href="#skills" className="transition hover:text-white">
+            <Link href="#features" className="transition hover:text-white">
               Capabilities
             </Link>
             <Link href="#use-cases" className="transition hover:text-white">

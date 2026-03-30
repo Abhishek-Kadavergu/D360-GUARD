@@ -60,7 +60,7 @@ export const HeroContent = () => {
           </a>
           <a
             className="py-2 px-6 text-center text-white cursor-pointer rounded-lg border border-purple-500 hover:bg-purple-500/20 transition-all max-w-[200px]"
-            href="#skills"
+            href="#features"
           >
             See How It Works
           </a>
