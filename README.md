@@ -47,6 +47,7 @@ Here is the folder structure of this app.
 ```bash
 space-portfolio/
   |- app/
+    |-- request-demo/
     |-- apple-icon.png
     |-- favicon.ico
     |-- globals.css
@@ -57,6 +58,7 @@ space-portfolio/
   |- components/
     |-- main/
     |-- sub/
+    |-- request-demo-form.tsx
   |- config/
     |-- index.ts
   |- constants/
