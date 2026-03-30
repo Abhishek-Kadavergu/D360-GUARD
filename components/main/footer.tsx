@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import Image from "next/image";
 import { RxInstagramLogo, RxLinkedinLogo } from "react-icons/rx";
 
 export const Footer = () => {
