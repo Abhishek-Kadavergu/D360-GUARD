@@ -14,7 +14,7 @@ export const Navbar = () => {
       <div className="w-full h-full flex items-center justify-between m-auto px-[10px]">
         {/* Logo + Name */}
         <Link
-          href="#about-me"
+          href="#product"
           className="flex items-center"
         >
           <Image
@@ -25,7 +25,7 @@ export const Navbar = () => {
             draggable={false}
             className="cursor-pointer"
           />
-          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">John Doe</div>
+          <div className="hidden md:flex md:selffont-bold ml-[10px] text-gray-300">D360 Guard</div>
         </Link>
 
         {/* Web Navbar */}
@@ -41,14 +41,14 @@ export const Navbar = () => {
               </Link>
             ))}
 
-            {/* Source Code */}
+            {/* Security / Docs */}
             <Link
               href={LINKS.sourceCode}
               target="_blank"
               rel="noreferrer noopener"
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition"
             >
-              Source Code
+              Security / Docs
             </Link>
           </div>
         </div>
@@ -98,7 +98,7 @@ export const Navbar = () => {
               className="cursor-pointer hover:text-[rgb(112,66,248)] transition text-center"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Source Code
+              Security / Docs
             </Link>
           </div>
 

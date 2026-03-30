@@ -24,7 +24,7 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="Welcome-text text-[13px]">
-            Fullstack Developer Portfolio
+            Enterprise AI Security Platform
           </h1>
         </motion.div>
 
@@ -33,11 +33,11 @@ export const HeroContent = () => {
           className="flex flex-col gap-6 mt-6 text-6xl text-bold text-white max-w-[600px] w-auto h-auto"
         >
           <span>
-            Providing{" "}
+            Adopt AI.{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-              the best
+              Without Exposing
             </span>{" "}
-            project experience.
+            Your Data.
           </span>
         </motion.div>
 
@@ -45,16 +45,33 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-lg text-gray-400 my-5 max-w-[600px]"
         >
-          I&apos;m a Full Stack Software Engineer with experience in Website,
-          Mobile, and Software development. Check out my projects and skills.
+          D360 Guard acts as a secure intelligence layer between your organization and external AI systems &mdash; automatically protecting sensitive data, enforcing policies, and ensuring compliance.
         </motion.p>
 
-        <motion.a
+        <motion.div
           variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+          className="flex flex-col sm:flex-row gap-4 items-start sm:items-center mt-4"
         >
-          Learn more
-        </motion.a>
+          <a
+            className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+            href="#projects"
+          >
+            Request Demo
+          </a>
+          <a
+            className="py-2 px-6 text-center text-white cursor-pointer rounded-lg border border-purple-500 hover:bg-purple-500/20 transition-all max-w-[200px]"
+            href="#skills"
+          >
+            See How It Works
+          </a>
+        </motion.div>
+        
+        <motion.p
+          variants={slideInFromLeft(1.2)}
+          className="text-sm text-gray-500 mt-4"
+        >
+          Built for security-first enterprises
+        </motion.p>
       </div>
 
       <motion.div
