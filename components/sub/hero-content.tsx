@@ -3,6 +3,7 @@
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 import {
   slideInFromLeft,
@@ -52,12 +53,12 @@ export const HeroContent = () => {
           variants={slideInFromLeft(1)}
           className="flex flex-col sm:flex-row gap-4 items-start sm:items-center mt-4"
         >
-          <a
-            className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-            href="#projects"
+          <Link
+            href="/request-demo"
+            className="py-2 px-6 button-primary inline-block text-center text-white cursor-pointer rounded-lg max-w-[200px]"
           >
             Request Demo
-          </a>
+          </Link>
           <a
             className="py-2 px-6 text-center text-white cursor-pointer rounded-lg border border-purple-500 hover:bg-purple-500/20 transition-all max-w-[200px]"
             href="#features"

@@ -26,12 +26,12 @@ export const Footer = () => {
               Securely adopt AI with built-in data protection, governance, and
               compliance.
             </p>
-            {/* <Link
-              href="#product"
+            <Link
+              href="/request-demo"
               className="py-2 px-6 border border-[#7042f88b] bg-[rgba(112,66,248,0.1)] text-white text-sm font-medium rounded-md hover:bg-[rgba(112,66,248,0.3)] transition-all"
             >
               Request Demo
-            </Link> */}
+            </Link>
           </div>
 
           {/* 2. Product */}
