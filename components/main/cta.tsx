@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export const Cta = () => {
   return (
     <section className="flex flex-col items-center justify-center py-16 sm:py-20 md:py-32 px-4 sm:px-6 md:px-8 text-center z-[20]">
@@ -10,9 +8,9 @@ export const Cta = () => {
         D360 Guard ensures your organization can innovate with AI &mdash;
         without compromising security, privacy, or compliance.
       </p>
-      <Link
-        href="/contact-us"
-        className="py-2.5 sm:py-3 px-6 sm:px-8 button-primary text-center text-white cursor-pointer rounded-lg text-sm sm:text-base md:text-lg font-medium shadow-[0_0_20px_rgba(112,66,248,0.3)] hover:shadow-[0_0_30px_rgba(112,66,248,0.5)] transition-all"
+      {/* <a
+        href="#product"
+        className="py-3 px-8 button-primary text-center text-white cursor-pointer rounded-lg text-lg font-medium shadow-[0_0_20px_rgba(112,66,248,0.3)] hover:shadow-[0_0_30px_rgba(112,66,248,0.5)] transition-all"
       >
         Request Demo
       </Link>

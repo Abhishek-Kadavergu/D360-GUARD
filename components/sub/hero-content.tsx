@@ -3,6 +3,7 @@
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 import {
   slideInFromLeft,
@@ -45,7 +46,9 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-sm sm:text-base md:text-lg text-gray-400 my-3 sm:my-4 md:my-5 max-w-[600px] mx-auto md:mx-0 leading-relaxed"
         >
-          D360 Guard acts as a secure intelligence layer between your organization and external AI systems &mdash; automatically protecting sensitive data, enforcing policies, and ensuring compliance.
+          D360 Guard acts as a secure intelligence layer between your
+          organization and external AI systems &mdash; automatically protecting
+          sensitive data, enforcing policies, and ensuring compliance.
         </motion.p>
 
         <motion.div
@@ -59,11 +62,11 @@ export const HeroContent = () => {
             Request Demo
           </a>
           <a
-            className="py-2.5 sm:py-2 px-6 text-center text-white cursor-pointer rounded-lg border border-purple-500 hover:bg-purple-500/20 transition-all text-sm sm:text-base w-full sm:w-auto max-w-[200px]"
+            className="py-2 px-6 text-center text-white cursor-pointer rounded-lg border border-purple-500 hover:bg-purple-500/20 transition-all max-w-[200px]"
             href="#features"
           >
             See How It Works
-          </a>
+          </a> */}
         </motion.div>
 
         <motion.p
