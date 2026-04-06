@@ -66,7 +66,7 @@ export const HeroContent = () => {
             href="#features"
           >
             See How It Works
-          </a> */}
+          </a>
         </motion.div>
 
         <motion.p

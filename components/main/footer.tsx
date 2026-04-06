@@ -26,12 +26,7 @@ export const Footer = () => {
               Securely adopt AI with built-in data protection, governance, and
               compliance.
             </p>
-            <Link
-              href="/request-demo"
-              className="py-2 px-6 border border-[#7042f88b] bg-[rgba(112,66,248,0.1)] text-white text-sm font-medium rounded-md hover:bg-[rgba(112,66,248,0.3)] transition-all"
-            >
-              Request Demo
-            </Link>
+
           </div>
 
           {/* 2. Product */}
@@ -64,14 +59,7 @@ export const Footer = () => {
                   Use Cases
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/#security"
-                  className="text-xs sm:text-sm text-gray-400 hover:text-white hover:underline transition-all"
-                >
-                  Security
-                </Link>
-              </li>
+
             </ul>
           </div>
 
@@ -81,7 +69,9 @@ export const Footer = () => {
               Company
             </h3>
             <ul className="flex flex-col space-y-2 sm:space-y-3">
-              <li className="text-xs sm:text-sm">Piazza Consulting Group</li>
+              <a href="https://piazza-website-beta.vercel.app/work.html">
+                <li className="text-xs sm:text-sm">Piazza Consulting Group</li>
+              </a>
             </ul>
           </div>
 
